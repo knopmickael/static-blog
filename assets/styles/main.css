@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(0, 0, 58);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 15vw;
+  background-color: white;
+  min-height: 100vh;
+}
+
+section {
+  padding: 5vh 5vw;
+}
+
+#blog-title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#blog-social-medias {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#blog-description {
+  font-style: italic;
+  font-weight: 100;
+}
+
+#posts {
+  margin-top: 5vh;
+}
+
+#posts-title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.post {
+  border-top: 1px solid gray;
+  margin: 0 15vh;
+  padding: 5vh 0;
+}
+
+.post .post-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.post .post-content {
+  margin-top: 2.5vh;
+  font-size: 18px;
+  font-weight: 100;
+}
